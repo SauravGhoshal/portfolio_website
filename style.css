@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;}
+.Portfolio-container{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 4rem;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    color: bisque;
+    font-size: 1.9rem;
+
+    
+   
+}
+/* .navlist li{
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    text-transform: none;
+    font-size: 1.9rem;
+    color: bisque;
+    position: relative;
+    
+} */
+.left-cont{
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+    background: fixed;
+    background-color: rgb(26, 23, 44);
+    width: 70%; height: 100vh;
+}
+.right-cont{
+    display: flex;    align-items: center;
+
+    background: linear-gradient(-45deg, rgb(86, 73, 98),rgb(26, 23, 44)80%);
+    width: 30%;height: 100vh;
+}
+.icons .fa-brands{
+    font-size: 2.5rem;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+.content{
+    margin-left:  4rem;
+    color: rgb(188, 212, 141);
+}
+.content h4{
+    font-size: 2.5rem;
+    color: rgb(150, 179, 236);
+}
+.content h1{
+    font-size: 4rem;
+    color: rgb(61, 188, 247);
+
+}
+.content p{
+    align-items: center;
+    font-size: 1.7rem;
+    max-width: 40rem;
+    margin: 1.7rem 0 2rem 0;
+    
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(rgb(236, 88, 211),rgb(66, 155, 238));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top:50%;
+    left: 70%; 
+    transform: translate(-50%,-50%);
+}
+.circle:nth-child(1){
+    background:linear-gradient(90deg,transparent 50%, rgb(26, 23, 44)50%);
+    width:38rem;
+}
+.circle:nth-child(2){
+    background: white;
+    position: absolute;
+    width: 30rem;
+    background-image: url(saurav2\ bg\ removed.png);
+    z-index: 5;
+   
+    background-size :100%;
+    background-position-y:82%;
+    background-repeat:no-repeat ;
+    box-shadow:0 0 2.5rem rgb(117, 100, 187);
+    
+
+   
+}
+.hide {
+  display: none;
+  border-radius: 20%;
+  height: fit-content;
+  width: 50%;
+  margin: 1.7rem 0 2rem 0;
+  
+}
+.hide1 {
+    display: none;
+    border-radius: 20%;
+    height: fit-content;
+    width: 50%;
+    margin: 1.7rem 0 2rem 0;
+    
+  }
+  .hide2 {
+    display: none;
+    border-radius: 20%;
+    height: fit-content;
+    width: 50%;
+  
+    
+  }
+.Education:hover{
+    background: linear-gradient(rgb(63, 43, 235),rgb(6, 67, 124));
+    opacity: 100%;
+    border-radius: 10px;
+    transition-duration: 0s;
+    position: relative;
+    border: 1rem;
+}
+
+.Education:hover + .hide{
+    background: linear-gradient(rgb(138, 134, 182),rgb(6, 67, 124));
+    opacity: 100%;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position:absolute;
+    border: 1rem;
+    display: block;
+    color: bisque;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 20px;
+    margin-top: 700px;
+    text-align: center;
+ padding-bottom: 100px;
+    margin-right: 850px;
+
+
+}
+.Certifications:hover{
+    background: linear-gradient(rgb(63, 43, 235),rgb(6, 67, 124));
+    opacity: 100%;
+    border-radius: 10px;
+    transition-duration: 0s;
+    position: relative;
+    border: 1rem;
+}
+.Certifications:hover + .hide1{
+    background: linear-gradient(rgb(138, 134, 182),rgb(6, 67, 124));
+    opacity: 100%;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position:absolute;
+    border: 1rem;
+    display: block;
+    color: bisque;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 20px;
+    margin-top: 700px;
+    text-align: center;
+ padding-bottom: 200px;
+    margin-right: 850px;
+
+
+}
+.Co-Curricular:hover{
+    background: linear-gradient(rgb(63, 43, 235),rgb(6, 67, 124));
+    opacity: 100%;
+    border-radius: 10px;
+    transition-duration: 0s;
+    position: relative;
+    border: 1rem;
+}
+.Co-Curricular:hover+ .hide2{
+    background: linear-gradient(rgb(138, 134, 182),rgb(6, 67, 124));
+    opacity: 100%;
+    border-radius: 10px;
+    transition-duration: 1s;
+    position:absolute;
+    border: 1rem;
+    display: block;
+    color: bisque;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 20px;
+    margin-top: 700px;
+    text-align: center;
+ padding-bottom: 200px;
+    margin-right: 850px;
+
+}
